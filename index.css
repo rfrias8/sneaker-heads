@@ -26,3 +26,79 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+html { 
+    background: url("https://i0.wp.com/sneakersummit.com/wp-content/uploads/2017/07/H-Town-Sneaker-Summit-2017-SUmmer-Sunday-July-30th.jpg?ssl=1") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    /* background-image: url("https://i0.wp.com/sneakersummit.com/wp-content/uploads/2017/07/H-Town-Sneaker-Summit-2017-SUmmer-Sunday-July-30th.jpg?ssl=1"); */
+    /* height: 100%;
+    position: relative; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    color: blue;
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 8px;
+    text-shadow: 3px 3px 5px yellow;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+img {
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid red; */
+}
+
+#jordans-1 {
+    box-shadow: 4px 1px blue;
+    /* border: 2px solid red; */
+
+}
+
+#jordans-2 {
+    box-shadow: -4px 1px red;
+}
+
+#row1 {
+    margin-right: 40%;
+    /* margin-bottom: 10px; */
+    /* border: 2px solid red */
+}
+
+#row2 {
+    margin-left: 40%
+}
+
+#jordans-1-desc {
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: rgb(90, 185, 232);
+    color: white;
+    font-family:"Copperplate", sans-serif;
+    padding: 5px;
+
+}
+
+#jordans-2-desc {
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family:"Copperplate", sans-serif;
+    padding: 5px;
+}
+
